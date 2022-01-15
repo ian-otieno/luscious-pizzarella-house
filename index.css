@@ -76,6 +76,7 @@ li a {
     width: 600px;
     font-weight: bolder;
     color: white;
+    text-align: center;
 }
 .services{
     width: 100%;
@@ -88,13 +89,14 @@ li a {
     width: 500px;
 
 }
-.size, .crust, .toppings{
+.size, .crust, .toppings,.menu{
     text-align: center;
     height: 500;
     width: 30%;
     background-color: goldenrod;
     color: white;
     border-radius: 25px;
+    
 }
 .jumbotron1{
  padding: 10px;  
