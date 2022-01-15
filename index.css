@@ -107,4 +107,25 @@ li a {
  font-weight: bolder;
  font-size: 30px;
 }
+#order{
+    background-color: green;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.row{
+padding-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+]
            
