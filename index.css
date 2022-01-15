@@ -95,8 +95,64 @@ li a {
     width: 30%;
     background-color: goldenrod;
     color: white;
-    border-radius: 25px;
-    
+    border-radius: 25px; 
+}
+.menu{
+    transform-style: preserve-3d;
+    -webkit-style: preserve-3d;
+    -moz-style: preserve-3d;
+    -o-style: preserve-3d;
+    -ms-style: preserve-3d;
+    animation: animation1 8s ease-in 0s infinite normal;
+    -webkit-animation: animation1 8s ease-in 4s infinite normal;
+    -moz-animation: animation1 8s ease-in 4s infinite normal;
+    -o-animation: animation1 8s ease-in 4s infinite normal;
+    -ms-animation: animation1 8s ease-in 4s infinite normal;
+   }
+   
+   @keyframes animation1 {
+    from {
+     transform: rotateX(0deg);
+    }
+    to {
+     transform: rotateX(360deg);
+    }
+   }
+   
+   @-moz-keyframes animation1 {
+    from {
+     transform: rotateX(0deg);
+    }
+    to {
+     transform: rotateX(360deg);
+    }
+   }
+   
+   @-o-keyframes animation1 {
+    from {
+     transform: rotateX(0deg);
+    }
+    to {
+     transform: rotateX(360deg);
+    }
+   }
+   
+   @-ms-keyframes animation1 {
+    from {
+     transform: rotateX(0deg);
+    }
+    to {
+     transform: rotateX(360deg);
+    }
+   }
+   
+   @-webkit-keyframes animation1 {
+    from {
+     transform: rotateX(0deg);
+    }
+    to {
+     transform: rotateX(360deg);
+    }   
 }
 .jumbotron1{
  padding: 10px;  
@@ -129,4 +185,18 @@ padding-top: 25px;
     padding: 8px;
     width: 200px;
     margin-left: 100px;
-}        
+}  
+footer{
+    width: 100%;
+    height: 125px;
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+} 
+.social{
+    padding-top: 50px;
+} 
+.copy{
+    padding-top: 50px;
+    font-size: 25px;
+}    
