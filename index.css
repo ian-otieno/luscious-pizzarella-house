@@ -77,4 +77,32 @@ li a {
     font-weight: bolder;
     color: white;
 }
+.services{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+    height: 400px;
+    width: 500px;
+
+}
+.size{
+    text-align: center;
+    height: 500;
+    width: 30%;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 25px;
+}
+.jumbotron1{
+ padding: 10px;  
+ background-color: goldenrod; 
+ color: white;
+ text-align: center;
+ font-style: italic;
+ font-weight: bolder;
+ font-size: 30px;
+}
            
