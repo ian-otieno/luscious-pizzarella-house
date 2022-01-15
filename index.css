@@ -1,3 +1,31 @@
-body{
-    margin: 0;
+body {
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    font-size: 35px;
+}
+
+li {
+    float: left;
+    margin-left: 50px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 45px;
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+    
+}
+.list {
+    float: right;
 }
