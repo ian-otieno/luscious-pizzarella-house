@@ -189,12 +189,16 @@ li a {
     text-align: center;
     justify-content: space-evenly;
 }
+#order_now{
+    padding-top: 50px;
+}
 
 .row {
     padding-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+    padding-bottom: 50px;
 }
 
 .contact {
