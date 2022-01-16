@@ -88,5 +88,56 @@ $(document).ready(function () {
   $("#pizzatopping").html(ptopping.join(", "));
   $("#totals").html(total);
 
-  
+  // Add pizza button function
+  $("button.addPizza").click(function () {
+    let pname = $(".name option:selected").val();
+    let psize = $("#size option:selected").val();
+    let pcrust = $("#crust option:selected").val();
+    let ptopping = [];
+    $.each($("input[name='toppings']:checked"), function () {
+      ptopping.push($(this).val());
+    });
+    console.log(ptopping.join(", "));
+    switch (psize) {
+      case "0":
+        price = 0;
+        break;
+      case "large":
+        price = 1200;
+        console.log(price);
+        break;
+      case "medium":
+        price = 800;
+        console.log("The price is " + price);
+        break;
+      case "small":
+        price = 600;
+        console.log(price);
+      default:
+        console.log("error");
+    }
+    switch (pcrust) {
+      case "0":
+        crust_price = 0;
+        break;
+      case "Crispy":
+        crust_price = 170;
+        break;
+      case "Stuffed":
+        crust_price = 150;
+        break;
+      case "Flatbread":
+        crust_price = 180;
+        break;
+      default:
+        console.log("No price");
+    }
+    let topping_value = ptopping.length * 80;
+    console.log("toppins value" + topping_value);
+    total = price + crust_price + topping_value;
+    console.log(total);
+
+    checkoutTotal = checkoutTotal + total;
+    console.log(checkoutTotal);
+    
 });
