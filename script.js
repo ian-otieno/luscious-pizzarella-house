@@ -146,5 +146,15 @@ $(document).ready(function () {
  console.log(newOrder);
 
 });
+// Confirm button function
+$("button#checkout").click(function () {
+ $("button#checkout").hide();
+ $("button.addPizza").hide();
+ $("button.deliver").slideDown(1000);
+ $("#addedprice").slideDown(1000);
+ console.log("Your total bills is Ksh. " + checkoutTotal);
+ $("#pizzatotal").append("Your bill is Ksh. " + checkoutTotal);
+});
+
 
 });
