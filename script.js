@@ -43,5 +43,23 @@ $(document).ready(function () {
       console.log("error");
   }
 
-   
+   //Case function for pizza crusts
+  switch (pcrust) {
+    case "0":
+      crust_price = 0;
+      break;
+    case "Crispy":
+      crust_price = 170;
+      break;
+    case "Stuffed":
+      crust_price = 150;
+      break;
+    case "Flatbread":
+      crust_price = 180;
+      break;
+    default:
+      console.log("No price");
+  }
+
+  
 });
