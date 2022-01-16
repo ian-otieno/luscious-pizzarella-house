@@ -24,29 +24,34 @@ li a {
     text-decoration: none;
     color: gold;
     font-weight: bold;
-    
+
 }
+
 .list {
     float: right;
 }
+
 .container-fluid {
     width: 100%;
     height: 125px;
     background-color: green;
     text-align: center;
 }
-.home{
+
+.home {
     height: 750px;
     width: 100%;
     background-image: url("images/background/msn23_400x400.jpg");
-    background-size: cover;  
+    background-size: cover;
 }
-.text{
+
+.text {
     color: goldenrod;
     padding-top: 70px;
     text-align: center;
-}  
-.btn{
+}
+
+.btn {
     margin-top: 100px;
     padding: 10px;
     width: 20%;
@@ -56,7 +61,8 @@ li a {
     color: white;
     background-color: goldenrod;
 }
-.about{
+
+.about {
     padding-top: 100px;
     width: 100%;
     height: 500px;
@@ -69,7 +75,8 @@ li a {
     font-weight: bold;
 
 }
-.jumbotron{
+
+.jumbotron {
     margin-left: 35%;
     padding: 10px;
     background-color: goldenrod;
@@ -78,26 +85,33 @@ li a {
     color: white;
     text-align: center;
 }
-.services{
+
+.services {
     width: 100%;
     height: 500px;
     display: flex;
     justify-content: space-evenly;
 }
-.img{
+
+.img {
     height: 400px;
     width: 500px;
 
 }
-.size, .crust, .toppings,.menu{
+
+.size,
+.crust,
+.toppings,
+.menu {
     text-align: center;
     height: 500;
     width: 30%;
     background-color: goldenrod;
     color: white;
-    border-radius: 25px; 
+    border-radius: 25px;
 }
-.menu{
+
+.menu {
     transform-style: preserve-3d;
     -webkit-style: preserve-3d;
     -moz-style: preserve-3d;
@@ -108,96 +122,109 @@ li a {
     -moz-animation: animation1 8s ease-in 4s infinite normal;
     -o-animation: animation1 8s ease-in 4s infinite normal;
     -ms-animation: animation1 8s ease-in 4s infinite normal;
-   }
-   
-   @keyframes animation1 {
-    from {
-     transform: rotateX(0deg);
-    }
-    to {
-     transform: rotateX(360deg);
-    }
-   }
-   
-   @-moz-keyframes animation1 {
-    from {
-     transform: rotateX(0deg);
-    }
-    to {
-     transform: rotateX(360deg);
-    }
-   }
-   
-   @-o-keyframes animation1 {
-    from {
-     transform: rotateX(0deg);
-    }
-    to {
-     transform: rotateX(360deg);
-    }
-   }
-   
-   @-ms-keyframes animation1 {
-    from {
-     transform: rotateX(0deg);
-    }
-    to {
-     transform: rotateX(360deg);
-    }
-   }
-   
-   @-webkit-keyframes animation1 {
-    from {
-     transform: rotateX(0deg);
-    }
-    to {
-     transform: rotateX(360deg);
-    }   
 }
-.jumbotron1{
- padding: 10px;  
- background-color: goldenrod; 
- color: white;
- text-align: center;
- font-style: italic;
- font-weight: bolder;
- font-size: 30px;
+
+@keyframes animation1 {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg);
+    }
 }
-#order{
+
+@-moz-keyframes animation1 {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+@-o-keyframes animation1 {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+@-ms-keyframes animation1 {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+@-webkit-keyframes animation1 {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+.jumbotron1 {
+    padding: 10px;
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#order {
     background-color: green;
     text-align: center;
     justify-content: space-evenly;
 }
-.row{
-padding-top: 20px;
-margin-left: 10px;
-margin-right: 10px;
-color: white;
-} 
-.contact{
-padding-top: 25px;
- width: 100%;  
- height: 280px; 
- display:flex;
- justify-content: space-evenly;
- background-color: goldenrod;
-} 
-.button{
+
+.row {
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.contact {
+    padding-top: 25px;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: goldenrod;
+}
+
+.button {
     padding: 8px;
     width: 200px;
     margin-left: 100px;
-}  
-footer{
+}
+
+footer {
     width: 100%;
     height: 125px;
     background-color: green;
     display: flex;
     justify-content: space-evenly;
-} 
-.social{
+}
+
+.social {
     padding-top: 50px;
-} 
-.copy{
+}
+
+.copy {
     padding-top: 50px;
     font-size: 25px;
-}    
+}
