@@ -5,7 +5,7 @@ By Ian Otieno
 ## Description
 The project is about creation of pizza restaurant website landing page called Luscious Pizarella House, <br>a modern classic and luxurious website that offers home delivery services to clients. Its main purpose is to elaborate the effectiveness of business logic and user interface logic.
 ## live demo 
-Click on the link  bellow to view the site;https:
+Click on the link  bellow to view the site;https:https://ian-otieno.github.io/luscious-pizzarella-house/
 
 ## Set up and Installation
 1)Install the Visual studio code<br>
