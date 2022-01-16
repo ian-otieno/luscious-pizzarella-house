@@ -61,5 +61,32 @@ $(document).ready(function () {
       console.log("No price");
   }
 
+  //Function for pizza toppings 
+  let topping_value = ptopping.length * 80;
+  console.log("toppins value" + topping_value);
+
+  if ((psize == "0") && (pcrust == "0")) {
+    console.log("nothing selected");
+    $("button.proceed").show();
+    $("#information").show();
+    $("div.select").hide();
+    alert("Please select your pizza delicacy flavor, size, crust and toppings of your choice!");
+  } else {
+    $("button.proceed").hide();
+    $("#information").hide();
+    $("div.choise").slideDown(1000);
+  }
+
+  total = price + crust_price + topping_value;
+  console.log(total);
+  let checkoutTotal = 0;
+  checkoutTotal = checkoutTotal + total;
+
+  $("#pizzaname").html($(".name option:selected").val());
+  $("#pizzasize").html($("#size option:selected").val());
+  $("#pizzacrust").html($("#crust option:selected").val());
+  $("#pizzatopping").html(ptopping.join(", "));
+  $("#totals").html(total);
+
   
 });
