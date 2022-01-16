@@ -1,5 +1,5 @@
-# luscious-pizzarella-hous
-This is modern classy  restaurant called Luscious Pizarella House  website landing page designed on the 16/1/2022<br>
+# Luscious-Pizzarella-House
+This is a modern classy  restaurant called Luscious Pizarella House  website landing page designed on the 16/1/2022<br>
 By Ian Otieno
 
 ## Description
