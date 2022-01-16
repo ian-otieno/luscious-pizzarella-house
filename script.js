@@ -169,5 +169,30 @@ $("button.deliver").click(function () {
   $("#totalbill").append("Your bill plus delivery fee is: " + deliveryamount);
  });
  
+ //Order now! button function
+ $("button#final_order").click(function (event) {
+  event.preventDefault();
  
+  $("#pizzatotal").hide();
+  $(".delivery").hide();
+  $("button#final_order").hide();
+  let deliveryamount = checkoutTotal + 100;
+  console.log("Final Bill is: " + deliveryamount);
+  let person = $("input#name").val();
+  let phone = $("input#phone").val();
+  let location = $("input#location").val();
+ 
+  if ($("input#name").val() && $("input#phone").val() && $("input#location").val() != "") {
+ 
+    $("#finaltext").append(person + ", We have recieved your pizza delicacy order and it will be delivered to you at " + location + ". Prepare Ksh. " + deliveryamount);
+    $("#totalbill").hide();
+    $("#finatext").slideDown(1200);
+  } else {
+    alert("Please fill in your pizza delicacy delivery details!");
+    $(".delivery").show();
+    $("button#final_order").show();
+  }
+ });
+ event.preventDefault();
+ });   
 });
