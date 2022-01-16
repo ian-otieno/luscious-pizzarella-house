@@ -23,5 +23,25 @@ $(document).ready(function () {
     });
     console.log(ptopping.join(", "));
 
+  //Case function for pizza sizes
+  switch (psize) {
+    case "0":
+      price = 0;
+      break;
+    case "large":
+      price = 1200;
+      console.log(price);
+      break;
+    case "medium":
+      price = 800;
+      console.log("The price is " + price);
+      break;
+    case "small":
+      price = 600;
+      console.log(price);
+    default:
+      console.log("error");
+  }
+
    
 });
