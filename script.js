@@ -156,5 +156,18 @@ $("button#checkout").click(function () {
  $("#pizzatotal").append("Your bill is Ksh. " + checkoutTotal);
 });
 
-
+// Get delivery button function
+$("button.deliver").click(function () {
+  $(".pizzatable").hide();
+  $(".choise h2").hide();
+  $(".delivery").slideDown(1000);
+  $("#addedprice").hide();
+  $("button.deliver").hide();
+  $("#pizzatotal").hide();
+  let deliveryamount = checkoutTotal + 100;
+  console.log("You will pay Ksh. " + deliveryamount + " upon delivery");
+  $("#totalbill").append("Your bill plus delivery fee is: " + deliveryamount);
+ });
+ 
+ 
 });
