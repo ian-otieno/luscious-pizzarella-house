@@ -159,7 +159,7 @@ $(document).ready(function () {
     // Get delivery button function
     $("button.deliver").click(function () {
       $(".pizzatable").hide();
-      $(".choise h2").hide();
+      $(".select h2").hide();
       $(".delivery").slideDown(1000);
       $("#addedprice").hide();
       $("button.deliver").hide();
