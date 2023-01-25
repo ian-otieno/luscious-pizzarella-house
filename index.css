@@ -6,21 +6,21 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0px;
+    margin: 0;
     padding: 0;
     overflow: hidden;
-    font-size: 35px;
+    font-size: 2.188rem;
 }
 
 li {
     float: left;
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 
 li a {
     display: block;
     text-align: center;
-    padding: 45px;
+    padding: 2.813rem;
     text-decoration: none;
     color: gold;
     font-weight: bold;
@@ -33,13 +33,13 @@ li a {
 
 .container-fluid {
     width: 100%;
-    height: 125px;
+    height: 7.813rem;
     background-color: green;
     text-align: center;
 }
 
 .home {
-    height: 750px;
+    height: 46.875rem;
     width: 100%;
     background-image: url("images/background/msn23_400x400.jpg");
     background-size: cover;
@@ -47,30 +47,30 @@ li a {
 
 .text {
     color: goldenrod;
-    padding-top: 70px;
+    padding-top: 4.375rem;
     text-align: center;
 }
 
 .btn {
-    margin-top: 100px;
-    padding: 10px;
+    margin-top: 6.25rem;
+    padding: 0.625rem;
     width: 20%;
-    border-radius: 25px;
+    border-radius: 1.563rem;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 1.563rem;
     color: white;
     background-color: goldenrod;
 }
 
 .about {
-    padding-top: 100px;
+    padding-top: 6.25rem;
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
     text-align: center;
     background-image: url("images/background/50354.jpg");
     background-repeat: none;
     background-size: cover;
-    font-size: 25px;
+    font-size: 1.563;
     color: green;
     font-weight: bold;
 
@@ -78,9 +78,9 @@ li a {
 
 .jumbotron {
     margin-left: 35%;
-    padding: 10px;
+    padding: 0.625rem;
     background-color: goldenrod;
-    width: 600px;
+    width: 37.5rem;
     font-weight: bolder;
     color: white;
     text-align: center;
@@ -88,14 +88,14 @@ li a {
 
 .services {
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
     display: flex;
     justify-content: space-evenly;
 }
 
 .img {
-    height: 400px;
-    width: 500px;
+    height: 16.625rem;
+    width: 18.75rem;
 
 }
 
@@ -104,84 +104,23 @@ li a {
 .toppings,
 .menu {
     text-align: center;
-    height: 500;
+    height: 31.25rem;
     width: 30%;
     background-color: goldenrod;
     color: white;
-    border-radius: 25px;
+    border-radius: 1.563rem;
 }
 
-.menu {
-    transform-style: preserve-3d;
-    -webkit-style: preserve-3d;
-    -moz-style: preserve-3d;
-    -o-style: preserve-3d;
-    -ms-style: preserve-3d;
-    animation: animation1 8s ease-in 0s infinite normal;
-    -webkit-animation: animation1 8s ease-in 4s infinite normal;
-    -moz-animation: animation1 8s ease-in 4s infinite normal;
-    -o-animation: animation1 8s ease-in 4s infinite normal;
-    -ms-animation: animation1 8s ease-in 4s infinite normal;
-}
 
-@keyframes animation1 {
-    from {
-        transform: rotateX(0deg);
-    }
-
-    to {
-        transform: rotateX(360deg);
-    }
-}
-
-@-moz-keyframes animation1 {
-    from {
-        transform: rotateX(0deg);
-    }
-
-    to {
-        transform: rotateX(360deg);
-    }
-}
-
-@-o-keyframes animation1 {
-    from {
-        transform: rotateX(0deg);
-    }
-
-    to {
-        transform: rotateX(360deg);
-    }
-}
-
-@-ms-keyframes animation1 {
-    from {
-        transform: rotateX(0deg);
-    }
-
-    to {
-        transform: rotateX(360deg);
-    }
-}
-
-@-webkit-keyframes animation1 {
-    from {
-        transform: rotateX(0deg);
-    }
-
-    to {
-        transform: rotateX(360deg);
-    }
-}
 
 .jumbotron1 {
-    padding: 10px;
+    padding: 0.625rem;
     background-color: goldenrod;
     color: white;
     text-align: center;
     font-style: italic;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 #order {
@@ -190,45 +129,45 @@ li a {
     justify-content: space-evenly;
 }
 #order_now{
-    padding-top: 50px;
+    padding-top: 3.125rem;
 }
 
 .row {
-    padding-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-top: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 .contact {
-    padding-top: 25px;
+    padding-top: 1.563rem;
     width: 100%;
-    height: 280px;
+    height: 17.5rem;
     display: flex;
     justify-content: space-evenly;
     background-color: goldenrod;
 }
 
 .button {
-    padding: 8px;
-    width: 200px;
-    margin-left: 100px;
+    padding:0.5rem;
+    width: 12.5rem;
+    margin-left: 6.25rem;
 }
 
 footer {
     width: 100%;
-    height: 125px;
+    height: 7.183rem;
     background-color: green;
     display: flex;
     justify-content: space-evenly;
 }
 
 .social {
-    padding-top: 50px;
+    padding-top: 3.125rem;
 }
 
 .copy {
-    padding-top: 50px;
-    font-size: 25px;
+    padding-top: 3.125rem;
+    font-size: 1.563rem;
 }
